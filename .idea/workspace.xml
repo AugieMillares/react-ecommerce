@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b9aa623-55af-4178-8f4f-aad4e690a23e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user.action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/cart-dropdown/cart-dropdown.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/cart-dropdown/cart-dropdown.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/cart-icon/cart-icon.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/cart-icon/cart-icon.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/header.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/sign-in/sign-in.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/sign-in/sign-in.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +132,7 @@
       <workItem from="1583620179668" duration="3008000" />
       <workItem from="1583624229417" duration="1033000" />
       <workItem from="1585319530439" duration="25592000" />
-      <workItem from="1585395740177" duration="17922000" />
+      <workItem from="1585395740177" duration="22328000" />
     </task>
     <task id="LOCAL-00001" summary="into component">
       <created>1585331912708</created>
@@ -169,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585405079789</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="redux reducer">
+      <created>1585430203069</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585430203069</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +200,8 @@
     <MESSAGE value="shop page / collection preview" />
     <MESSAGE value="header" />
     <MESSAGE value="integrated firebase" />
-    <option name="LAST_COMMIT_MESSAGE" value="integrated firebase" />
+    <MESSAGE value="redux reducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux reducer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2344" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585403207023">
@@ -205,10 +213,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2599" y="350" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585362152359" />
-    <state x="2491" y="142" key="CommitChangelistDialog2" timestamp="1585405079616">
+    <state x="2491" y="142" key="CommitChangelistDialog2" timestamp="1585430202823">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2491" y="142" key="CommitChangelistDialog2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585405079616" />
+    <state x="2491" y="142" key="CommitChangelistDialog2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585430202823" />
     <state width="1878" height="297" key="GridCell.Tab.0.bottom" timestamp="1585430168519">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -323,7 +331,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/redux/user/user-reducer.js</url>
-          <line>6</line>
+          <line>8</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
