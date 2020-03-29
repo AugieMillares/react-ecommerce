@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b9aa623-55af-4178-8f4f-aad4e690a23e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout-item/checkout-item.components.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout-item/checkout-item.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user.selector.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/cart-dropdown/cart-dropdown.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/cart-dropdown/cart-dropdown.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/cart-dropdown/cart-dropdown.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/cart-dropdown/cart-dropdown.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/cart-icon/cart-icon.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/cart-icon/cart-icon.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/header.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/sign-up/sign-up.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/sign-up/sign-up.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +129,8 @@
       <workItem from="1583620179668" duration="3008000" />
       <workItem from="1583624229417" duration="1033000" />
       <workItem from="1585319530439" duration="25592000" />
-      <workItem from="1585395740177" duration="40740000" />
+      <workItem from="1585395740177" duration="40873000" />
+      <workItem from="1585489571364" duration="3328000" />
     </task>
     <task id="LOCAL-00001" summary="into component">
       <created>1585331912708</created>
@@ -203,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585445728412</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add checkout">
+      <created>1585456869843</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585456869843</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +229,8 @@
     <MESSAGE value="redux reducer" />
     <MESSAGE value="cartitem grouping" />
     <MESSAGE value="cart dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="cart dropdown" />
+    <MESSAGE value="add checkout" />
+    <option name="LAST_COMMIT_MESSAGE" value="add checkout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2344" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585403207023">
@@ -242,30 +242,30 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2599" y="350" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585362152359" />
-    <state x="2491" y="142" key="CommitChangelistDialog2" timestamp="1585445728292">
+    <state x="2491" y="142" key="CommitChangelistDialog2" timestamp="1585456869654">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2491" y="142" key="CommitChangelistDialog2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585445728292" />
+    <state x="2491" y="142" key="CommitChangelistDialog2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585456869654" />
     <state x="2491" y="142" key="CommitChangelistDialog2/1920.0.1920.1080/-1920.23.1920.1057/0.23.1920.1177@1920.0.1920.1080" timestamp="1585437930979" />
-    <state width="1878" height="297" key="GridCell.Tab.0.bottom" timestamp="1585430168519">
+    <state width="1878" height="297" key="GridCell.Tab.0.bottom" timestamp="1585497485460">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="297" key="GridCell.Tab.0.bottom/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585430168519" />
+    <state width="1878" height="297" key="GridCell.Tab.0.bottom/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585497485460" />
     <state width="1878" height="422" key="GridCell.Tab.0.bottom/1920.0.1920.1080/-1920.23.1920.1057/0.23.1920.1177@1920.0.1920.1080" timestamp="1585424556734" />
-    <state width="1878" height="297" key="GridCell.Tab.0.center" timestamp="1585430168517">
+    <state width="1878" height="297" key="GridCell.Tab.0.center" timestamp="1585497485458">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="297" key="GridCell.Tab.0.center/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585430168517" />
+    <state width="1878" height="297" key="GridCell.Tab.0.center/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585497485458" />
     <state width="1878" height="422" key="GridCell.Tab.0.center/1920.0.1920.1080/-1920.23.1920.1057/0.23.1920.1177@1920.0.1920.1080" timestamp="1585424556729" />
-    <state width="1878" height="297" key="GridCell.Tab.0.left" timestamp="1585430168514">
+    <state width="1878" height="297" key="GridCell.Tab.0.left" timestamp="1585497485457">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="297" key="GridCell.Tab.0.left/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585430168514" />
+    <state width="1878" height="297" key="GridCell.Tab.0.left/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585497485457" />
     <state width="1878" height="422" key="GridCell.Tab.0.left/1920.0.1920.1080/-1920.23.1920.1057/0.23.1920.1177@1920.0.1920.1080" timestamp="1585424556728" />
-    <state width="1878" height="297" key="GridCell.Tab.0.right" timestamp="1585430168518">
+    <state width="1878" height="297" key="GridCell.Tab.0.right" timestamp="1585497485459">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="297" key="GridCell.Tab.0.right/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585430168518" />
+    <state width="1878" height="297" key="GridCell.Tab.0.right/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585497485459" />
     <state width="1878" height="422" key="GridCell.Tab.0.right/1920.0.1920.1080/-1920.23.1920.1057/0.23.1920.1177@1920.0.1920.1080" timestamp="1585424556731" />
     <state width="1878" height="422" key="GridCell.Tab.1.bottom" timestamp="1585424721520">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -340,18 +340,19 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2020" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585368419338" />
-    <state x="2573" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1585396025388">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="653" y="413" key="com.intellij.ide.util.TipDialog" timestamp="1585489593956">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state x="653" y="413" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1585489593956" />
     <state x="2573" y="372" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585396025388" />
     <state x="2685" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585404196572">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2685" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585404196572" />
-    <state x="2560" y="297" width="639" height="486" key="find.popup" timestamp="1585450438885">
+    <state x="2560" y="297" width="639" height="486" key="find.popup" timestamp="1585495688634">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2560" y="297" width="639" height="486" key="find.popup/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585450438885" />
+    <state x="2560" y="297" width="639" height="486" key="find.popup/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585495688634" />
     <state x="2309" y="162" key="new project wizard" timestamp="1585325591189">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -367,7 +368,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/redux/user/user-reducer.js</url>
           <line>8</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
