@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b9aa623-55af-4178-8f4f-aad4e690a23e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/stripe-button/stripe-button.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +40,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
@@ -127,7 +126,7 @@
       <workItem from="1583624229417" duration="1033000" />
       <workItem from="1585319530439" duration="25592000" />
       <workItem from="1585395740177" duration="40873000" />
-      <workItem from="1585489571364" duration="18259000" />
+      <workItem from="1585489571364" duration="19875000" />
     </task>
     <task id="LOCAL-00001" summary="into component">
       <created>1585331912708</created>
@@ -213,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585515595706</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary=" stripe integration - npm add react-stripe-checkout">
+      <created>1585517933253</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585517933253</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +249,8 @@
     <MESSAGE value="add checkout" />
     <MESSAGE value="redux persist - local storage" />
     <MESSAGE value="nested router / collection pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="nested router / collection pages" />
+    <MESSAGE value=" stripe integration - npm add react-stripe-checkout" />
+    <option name="LAST_COMMIT_MESSAGE" value=" stripe integration - npm add react-stripe-checkout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2344" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585403207023">
@@ -255,11 +262,15 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2599" y="350" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585517507596" />
-    <state x="2491" y="142" key="CommitChangelistDialog2" timestamp="1585517908750">
+    <state x="2491" y="142" key="CommitChangelistDialog2" timestamp="1585517933076">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2491" y="142" key="CommitChangelistDialog2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585517908750" />
+    <state x="2491" y="142" key="CommitChangelistDialog2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585517933076" />
     <state x="2491" y="142" key="CommitChangelistDialog2/1920.0.1920.1080/-1920.23.1920.1057/0.23.1920.1177@1920.0.1920.1080" timestamp="1585437930979" />
+    <state x="2020" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1585519508656">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2020" y="100" width="1720" height="880" key="DiffContextDialog/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585519508656" />
     <state width="1878" height="297" key="GridCell.Tab.0.bottom" timestamp="1585497485460">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -340,14 +351,14 @@
     </state>
     <state width="1878" height="422" key="GridCell.Tab.3.right/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585403159934" />
     <state width="1878" height="422" key="GridCell.Tab.3.right/1920.0.1920.1080/-1920.23.1920.1057/0.23.1920.1177@1920.0.1920.1080" timestamp="1585403209927" />
-    <state x="2389" y="179" key="SettingsEditor" timestamp="1585402683573">
+    <state x="2389" y="179" key="SettingsEditor" timestamp="1585518742722">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2389" y="179" key="SettingsEditor/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585402683573" />
-    <state x="2480" y="280" key="Vcs.Push.Dialog.v2" timestamp="1585437952738">
+    <state x="2389" y="179" key="SettingsEditor/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585518742722" />
+    <state x="2480" y="280" key="Vcs.Push.Dialog.v2" timestamp="1585517950583">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2480" y="280" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585405092156" />
+    <state x="2480" y="280" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585517950583" />
     <state x="2480" y="280" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/-1920.23.1920.1057/0.23.1920.1177@1920.0.1920.1080" timestamp="1585437952738" />
     <state x="2020" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585368419338">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -366,6 +377,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2560" y="297" width="639" height="486" key="find.popup/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585495688634" />
+    <state x="2654" y="260" key="git4idea.branch.GitSmartOperationDialog" timestamp="1585519486877">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2654" y="260" key="git4idea.branch.GitSmartOperationDialog/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585519486877" />
     <state x="2309" y="162" key="new project wizard" timestamp="1585325591189">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
