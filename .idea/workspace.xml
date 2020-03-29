@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b9aa623-55af-4178-8f4f-aad4e690a23e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/cart-item/cart-item.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/cart-item/cart-item.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/collection-item/collection-item.components.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/collection-item/collection-item.components.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/collection-item/collection-item.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/custom-button/custom-button.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/custom-button/custom-button.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/custom-button/custom-button.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/custom-button/custom-button.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/preview-collection/preview-collection.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/preview-collection/preview-collection.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/cart-dropdown/cart-dropdown.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/cart-dropdown/cart-dropdown.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +124,7 @@
       <workItem from="1583620179668" duration="3008000" />
       <workItem from="1583624229417" duration="1033000" />
       <workItem from="1585319530439" duration="25592000" />
-      <workItem from="1585395740177" duration="25836000" />
+      <workItem from="1585395740177" duration="29819000" />
     </task>
     <task id="LOCAL-00001" summary="into component">
       <created>1585331912708</created>
@@ -182,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585434580229</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="cartitem grouping">
+      <created>1585437931096</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585437931096</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +208,8 @@
     <MESSAGE value="integrated firebase" />
     <MESSAGE value="redux reducer" />
     <MESSAGE value="cart dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="cart dropdown" />
+    <MESSAGE value="cartitem grouping" />
+    <option name="LAST_COMMIT_MESSAGE" value="cartitem grouping" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2344" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585403207023">
@@ -220,10 +221,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2599" y="350" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585362152359" />
-    <state x="2491" y="142" key="CommitChangelistDialog2" timestamp="1585434580075">
+    <state x="2491" y="142" key="CommitChangelistDialog2" timestamp="1585437930979">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2491" y="142" key="CommitChangelistDialog2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585434580075" />
+    <state x="2491" y="142" key="CommitChangelistDialog2/1920.0.1920.1080/-1920.23.1920.1057/0.23.1920.1177@1920.0.1920.1080" timestamp="1585437930979" />
     <state width="1878" height="297" key="GridCell.Tab.0.bottom" timestamp="1585430168519">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -308,10 +310,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2389" y="179" key="SettingsEditor/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585402683573" />
-    <state x="2480" y="280" key="Vcs.Push.Dialog.v2" timestamp="1585405092156">
+    <state x="2480" y="280" key="Vcs.Push.Dialog.v2" timestamp="1585437952738">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2480" y="280" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585405092156" />
+    <state x="2480" y="280" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/-1920.23.1920.1057/0.23.1920.1177@1920.0.1920.1080" timestamp="1585437952738" />
     <state x="2020" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585368419338">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
