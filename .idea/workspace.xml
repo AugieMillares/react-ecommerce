@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b9aa623-55af-4178-8f4f-aad4e690a23e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/collections-overview/collections-overview.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/collections-overview/collections-overview.styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory.selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/stripe-button/stripe-button.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/collection-item/collection-item.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/directory/directory.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/directory/directory.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +127,7 @@
       <workItem from="1583624229417" duration="1033000" />
       <workItem from="1585319530439" duration="25592000" />
       <workItem from="1585395740177" duration="40873000" />
-      <workItem from="1585489571364" duration="16589000" />
+      <workItem from="1585489571364" duration="18259000" />
     </task>
     <task id="LOCAL-00001" summary="into component">
       <created>1585331912708</created>
@@ -215,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585497510566</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="nested router / collection pages">
+      <created>1585515595705</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585515595706</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +242,8 @@
     <MESSAGE value="cart dropdown" />
     <MESSAGE value="add checkout" />
     <MESSAGE value="redux persist - local storage" />
-    <option name="LAST_COMMIT_MESSAGE" value="redux persist - local storage" />
+    <MESSAGE value="nested router / collection pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="nested router / collection pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2344" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585403207023">
@@ -252,14 +251,14 @@
     </state>
     <state x="2344" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585402775972" />
     <state x="2344" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/-1920.23.1920.1057/0.23.1920.1177@1920.0.1920.1080" timestamp="1585403207023" />
-    <state x="2599" y="350" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585362152359">
+    <state x="2599" y="350" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585517507596">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2599" y="350" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585362152359" />
-    <state x="2491" y="142" key="CommitChangelistDialog2" timestamp="1585497510323">
+    <state x="2599" y="350" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585517507596" />
+    <state x="2491" y="142" key="CommitChangelistDialog2" timestamp="1585517908750">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2491" y="142" key="CommitChangelistDialog2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585497510323" />
+    <state x="2491" y="142" key="CommitChangelistDialog2/1920.0.1920.1080/-1920.0.1920.1080/0.0.1920.1200@1920.0.1920.1080" timestamp="1585517908750" />
     <state x="2491" y="142" key="CommitChangelistDialog2/1920.0.1920.1080/-1920.23.1920.1057/0.23.1920.1177@1920.0.1920.1080" timestamp="1585437930979" />
     <state width="1878" height="297" key="GridCell.Tab.0.bottom" timestamp="1585497485460">
       <screen x="1920" y="0" width="1920" height="1080" />
