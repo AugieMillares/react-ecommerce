@@ -8,7 +8,7 @@ import './collection.style.scss'
 import CollectionItem from "../../component/collection-item/collection-item.components";
 
 const CollectionPage = ({collection:{title,items}}) => {
-    console.log("=============");
+    //console.log("=============");
     return (
         <div className='collection-page'>
             <h2 className='title'>{title.toUpperCase()}</h2>
